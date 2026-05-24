@@ -33,7 +33,7 @@ formEl.addEventListener('submit', e => {
     .catch(error => {
       hideLoader();
       iziToast.error({
-        message: error,
+        message: 'An error occured!',
         position: 'topRight',
       });
     });
